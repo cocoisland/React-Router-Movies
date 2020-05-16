@@ -56,26 +56,22 @@ If you have completed Parts 1 & 2 feel free to move on to these stretch goals.
 - [ ] Navlink
 
 # Client Side Routing w/ React Router v. 5
-Client-side routing is a JavaScript managed routing option. It offers control over your site URL & content without necessarily having to wait for a server to respond with content. It is designed to mimic the appearance of traditional multi page websites.
+> **Client-side routing** is a JavaScript managed routing option. It offers control over your site URL & content without necessarily having to wait for a server to respond with content. It is designed to mimic the appearance of traditional multi page websites.
 
-What is server-side routing? It’s the way the web has worked for decades. Every link click & change of the address bar is a new request to a remote server. Every page load includes all page design elements, which must be re-downloaded. Including headers, navigation, sidebars, footers, etc. The server side routing method is not very efficient.
+> What is **server-side routing?** It’s the way the web has worked for decades. Every link click & change of the address bar is a new request to a remote server. Every page load includes all page design elements, which must be re-downloaded. Including headers, navigation, sidebars, footers, etc. The server side routing method is not very efficient.
 
 Overview
-What is Routing?
-Being able to access information based on a URL is not only a powerful tool at our disposal as end-users and developers, but it is also a standard. Routing is essential for handling a communication piece between computers. Routing is the way we navigate through websites and web applications today. When we click on a link on any web app or website, we are routing to a URL and requesting some information that lives somewhere else. You do this every day - just type www.google.com in a web browser, and you’ve utilized routing to get resources from a server.
+**What is Routing?**
+> Being able to access information based on a URL is not only a powerful tool at our disposal as end-users and developers, but it is also a standard. Routing is essential for handling a communication piece between computers. Routing is the way we navigate through websites and web applications today. When we click on a link on any web app or website, we are routing to a URL and requesting some information that lives somewhere else. You do this every day - just type www.google.com in a web browser, and you’ve utilized routing to get resources from a server.
 
-What is a Server?
-Before we talk about the how of routing, we need a solid definition of the what. In computer science, the term “server” refers to centralized resources on a network. These servers are physical devices, usually housed with other servers in large warehouses, that run the “behind the scenes” work of the internet like data storage. When you route, you’re routing to a server.
+**What is a Server?**
+> Before we talk about the how of routing, we need a solid definition of the what. In computer science, the term “server” refers to centralized resources on a network. These servers are physical devices, usually housed with other servers in large warehouses, that run the “behind the scenes” work of the internet like data storage. When you route, you’re routing to a server.
 
-You may be familiar with this type of server room from movies or TV. Each one of those boxes is a server, housing thousands of filing cabinets worth of data every couple of inches.
-
-server room
-
-Websites and Web-applications all rely heavily on information that is controlled by a server. We can’t get away from them, even when we hear buzz-words like “serverless” servers (hint: they’re not really server-less) we still rely on machines that communicate across channels to deliver content to us as end-users. Imagine if every time you clicked on something on a website, you had to request a resource from a server, and then the server had to go and retrieve that resource, and then that server had to send back some HTML/CSS and eventually some JavaScript in order to display the data on the screen. For a long time, this was how the web worked.This hasn’t entirely gone away, but we now have a slightly better way of doing things.
+> Websites and Web-applications all rely heavily on information that is controlled by a server. We can’t get away from them, even when we hear buzz-words like “serverless” servers (hint: they’re not really server-less) we still rely on machines that communicate across channels to deliver content to us as end-users. Imagine if every time you clicked on something on a website, you had to request a resource from a server, and then the server had to go and retrieve that resource, and then that server had to send back some HTML/CSS and eventually some JavaScript in order to display the data on the screen. For a long time, this was how the web worked.This hasn’t entirely gone away, but we now have a slightly better way of doing things.
 
 This image does a really good job of showing some of the key differences between Client-side (traditional) and Server-side(SPA) routing.
 
-Client vs server
+[Traditional client-server vs SPA](https://imagebin.ca/40yMWdOcgBfd/IC690875.png)
 
 Server-Side Routing
 When we request information from a server (by clicking on a link or button), that server then sends back the document that was requested. For example, we click on a link and our URL changes to match the request, then the server goes and finds a template or some HTML file and sends it back across the world wide web to deliver that content to the user.
