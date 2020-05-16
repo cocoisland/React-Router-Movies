@@ -55,7 +55,7 @@ If you have completed Parts 1 & 2 feel free to move on to these stretch goals.
 
 - [ ] Navlink
 
-
+# Client Side Routing w/ React Router v. 5
 Client-side routing is a JavaScript managed routing option. It offers control over your site URL & content without necessarily having to wait for a server to respond with content. It is designed to mimic the appearance of traditional multi page websites.
 
 What is server-side routing? It’s the way the web has worked for decades. Every link click & change of the address bar is a new request to a remote server. Every page load includes all page design elements, which must be re-downloaded. Including headers, navigation, sidebars, footers, etc. The server side routing method is not very efficient.
