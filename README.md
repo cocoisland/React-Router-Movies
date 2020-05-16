@@ -71,7 +71,7 @@ Overview
 
 This image does a really good job of showing some of the key differences between Client-side (traditional) and Server-side(SPA) routing.
 
-[Traditional client-server vs SPA](https://imagebin.ca/40yMWdOcgBfd/IC690875.png)
+![Traditional client-server vs SPA](https://imagebin.ca/40yMWdOcgBfd/IC690875.png)
 
 Server-Side Routing
 When we request information from a server (by clicking on a link or button), that server then sends back the document that was requested. For example, we click on a link and our URL changes to match the request, then the server goes and finds a template or some HTML file and sends it back across the world wide web to deliver that content to the user.
