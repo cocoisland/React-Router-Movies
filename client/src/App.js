@@ -25,7 +25,7 @@ const App = () => {
   }, []);
 
   const addToSavedList = movie => {
-    // element movie saved into savedList
+    // spread operator "..." spreading out all items in savedList and appending movie in the list
     setSavedList([...savedList, movie]);
   };
 
